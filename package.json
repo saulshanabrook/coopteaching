@@ -5,19 +5,35 @@
   "author": "Saul Shanabrook <s.shanabrook@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/graphql": "14.0.7",
+    "@types/node": "11.9.5",
     "@types/react": "16.8.4",
     "@types/react-dom": "16.8.2",
     "typescript": "3.3.3333"
   },
   "dependencies": {
-    "prisma-client-lib": "1.27.1",
-    "prop-types": "15.7.2",
-    "react": "16.8.3",
-    "react-dom": "16.8.3",
-    "react-hot-loader": "4.7.1"
+    "apollo-boost": "0.1.28",
+    "apollo-client": "2.4.12",
+    "graphql": "14.1.1",
+    "react": "^16.8.3",
+    "react-apollo": "2.4.1",
+    "react-dom": "^16.8.3",
+    "react-scripts": "2.1.5",
+    "typescript": "3.3.3333"
   },
   "scripts": {
-    "build": "neutrino build",
-    "start": "neutrino start"
-  }
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

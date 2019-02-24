@@ -1,16 +1,17 @@
-import { Component } from "react";
+import React, { Component } from "react";
 import "./App.css";
 
-export default class App extends Component {
-  state = {
-    name: "coopteaching"
-  };
-
+import InputCard from "./InputCard";
+import Cards from "./Cards";
+class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Welcome to {this.state.name}</h1>
+        <InputCard />
+        <Cards />
       </div>
     );
   }
 }
+
+export default App;
