@@ -5,9 +5,19 @@
   "author": "Saul Shanabrook <s.shanabrook@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/react": "16.8.4",
+    "@types/react-dom": "16.8.2",
     "typescript": "3.3.3333"
   },
   "dependencies": {
-    "prisma-client-lib": "1.27.1"
+    "prisma-client-lib": "1.27.1",
+    "prop-types": "15.7.2",
+    "react": "16.8.3",
+    "react-dom": "16.8.3",
+    "react-hot-loader": "4.7.1"
+  },
+  "scripts": {
+    "build": "neutrino build",
+    "start": "neutrino start"
   }
 }
